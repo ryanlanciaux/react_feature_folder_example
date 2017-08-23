@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { RECEIVE_PRODUCTS, ADD_TO_CART } from '../../constants/ActionTypes'
+import { RECEIVE_PRODUCTS, ADD_TO_CART } from '../../shared/constants/ActionTypes'
 
 const products = (state, action) => {
   switch (action.type) {

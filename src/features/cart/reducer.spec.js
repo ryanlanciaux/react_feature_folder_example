@@ -1,4 +1,4 @@
-import cart from './cart'
+import cart from './reducer'
 
 describe('reducers', () => {
   describe('cart', () => {

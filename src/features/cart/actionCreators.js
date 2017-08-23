@@ -1,5 +1,5 @@
-import * as types from '../../constants/ActionTypes'
-import shop from '../../api/shop'
+import * as types from '../../shared/constants/ActionTypes'
+import shop from '../../shared/api/shop'
 
 const addToCartUnsafe = productId => ({
   type: types.ADD_TO_CART,

@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import { createLogger } from 'redux-logger'
 import thunk from 'redux-thunk'
 
-import reducer from './reducers'
+import reducer from './shared/reducers'
 import { getAllProducts } from './features/product/actionCreators'
 import App from './App'
 

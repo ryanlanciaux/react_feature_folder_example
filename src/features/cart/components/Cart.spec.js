@@ -1,7 +1,8 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import Cart from './Cart'
-import Product from '../../product'
+// Importing the view directly here instead of the "default" container
+import Product from '../../product/components/Product';
 
 const setup = (total, products = []) => {
   const actions = {

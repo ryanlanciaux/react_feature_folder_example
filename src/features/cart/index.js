@@ -1,4 +1,4 @@
-import Product from './components/ProductsContainer';
+import Cart from './components/CartContainer';
 
 import * as actionCreators from './actionCreators';
 import * as selectors from './selectors';
@@ -8,4 +8,4 @@ export { actionCreators as actionCreators };
 export { selectors as selectors };
 export { reducer as reducer };
 
-export default Product;
+export default Cart;

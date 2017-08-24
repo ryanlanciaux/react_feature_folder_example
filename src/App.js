@@ -1,14 +1,14 @@
 import React from 'react'
-import ProductsContainer from './features/product/components/ProductsContainer'
-import CartContainer from './features/cart/components/CartContainer'
+import Products from './features/product'
+import Cart from './features/cart'
 
 const App = () => (
   <div>
     <h2>Shopping Cart Example</h2>
     <hr/>
-    <ProductsContainer />
+    <Products />
     <hr/>
-    <CartContainer />
+    <Cart />
   </div>
 )
 
